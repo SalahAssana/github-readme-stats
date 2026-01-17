@@ -99,7 +99,7 @@
 # Important Notices <!-- omit in toc -->
 
 > [!IMPORTANT]
-> Since the GitHub API only [allows 5k requests per hour per user account](https://docs.github.com/en/graphql/overview/resource-limitations), the public Vercel instance hosted on `https://github-readme-stats.vercel.app/api` could possibly hit the rate limiter (see [#1471](https://github.com/anuraghazra/github-readme-stats/issues/1471)). We use caching to prevent this from happening (see https://github.com/anuraghazra/github-readme-stats#common-options). You can turn off these rate limit protections by [deploying your own Vercel instance](#deploy-on-your-own).
+> Since the GitHub API only [allows 5k requests per hour per user account](https://docs.github.com/en/graphql/overview/resource-limitations), the public Vercel instance hosted on `https://github-readme-stats-nu-nine-96.vercel.app/api` could possibly hit the rate limiter (see [#1471](https://github.com/anuraghazra/github-readme-stats/issues/1471)). We use caching to prevent this from happening (see https://github.com/anuraghazra/github-readme-stats#common-options). You can turn off these rate limit protections by [deploying your own Vercel instance](#deploy-on-your-own).
 
 <img alt="Uptime Badge" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fgithub-readme-stats-git-monitoring-github-readme-stats-team.vercel.app%2Fapi%2Fstatus%2Fup%3Ftype%3Dshields">
 
@@ -407,7 +407,7 @@ Copy-paste this code into your readme and change the links.
 Endpoint: `api/pin?username=SalahAssana&repo=github-readme-stats`
 
 ```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=SalahAssana&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats-nu-nine-96.vercel.app/api/pin/?username=SalahAssana&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
 ### Options
@@ -421,11 +421,11 @@ You can customize the appearance and behavior of the pinned repository card usin
 
 ### Demo
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=SalahAssana\&repo=github-readme-stats)
+![Readme Card](https://github-readme-stats-nu-nine-96.vercel.app/api/pin/?username=SalahAssana\&repo=github-readme-stats)
 
 Use `show_owner` query option to include the repo's owner username
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=SalahAssana\&repo=github-readme-stats\&show_owner=true)
+![Readme Card](https://github-readme-stats-nu-nine-96.vercel.app/api/pin/?username=SalahAssana\&repo=github-readme-stats\&show_owner=true)
 
 # GitHub Gist Pins
 
@@ -438,7 +438,7 @@ Copy-paste this code into your readme and change the links.
 Endpoint: `api/gist?id=bbfce31e0217a3689c8d961a356cb10d`
 
 ```md
-[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://gist.github.com/Yizack/bbfce31e0217a3689c8d961a356cb10d/)
+[![Gist Card](https://github-readme-stats-nu-nine-96.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://gist.github.com/Yizack/bbfce31e0217a3689c8d961a356cb10d/)
 ```
 
 ### Options
@@ -451,11 +451,11 @@ You can customize the appearance and behavior of the gist card using the [common
 
 ### Demo
 
-![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
+![Gist Card](https://github-readme-stats-nu-nine-96.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
 
 Use `show_owner` query option to include the gist's owner username
 
-![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d\&show_owner=true)
+![Gist Card](https://github-readme-stats-nu-nine-96.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d\&show_owner=true)
 
 # Top Languages Card
 
@@ -480,7 +480,7 @@ Copy-paste this code into your readme and change the links.
 Endpoint: `api/top-langs?username=SalahAssana`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
 ### Options
@@ -520,7 +520,7 @@ By default, only the byte count is used for determining the languages percentage
 *   `&size_weight=0&count_weight=1` - Orders by repo count
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana&size_weight=0.5&count_weight=0.5)
+![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana&size_weight=0.5&count_weight=0.5)
 ```
 
 ### Exclude individual repositories
@@ -528,7 +528,7 @@ By default, only the byte count is used for determining the languages percentage
 You can use the `&exclude_repo=repo1,repo2` parameter to exclude individual repositories.
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana&exclude_repo=github-readme-stats,anuraghazra.github.io)
+![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana&exclude_repo=github-readme-stats,anuraghazra.github.io)
 ```
 
 ### Hide individual languages
@@ -536,7 +536,7 @@ You can use the `&exclude_repo=repo1,repo2` parameter to exclude individual repo
 You can use `&hide=language1,language2` parameter to hide individual languages.
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana&hide=javascript,html)
+![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana&hide=javascript,html)
 ```
 
 ### Show more languages
@@ -544,7 +544,7 @@ You can use `&hide=language1,language2` parameter to hide individual languages.
 You can use the `&langs_count=` option to increase or decrease the number of languages shown on the card. Valid values are integers between 1 and 20 (inclusive). By default it was set to `5` for `normal` & `donut` and `6` for other layouts.
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana&langs_count=8)
+![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana&langs_count=8)
 ```
 
 ### Compact Language Card Layout
@@ -552,7 +552,7 @@ You can use the `&langs_count=` option to increase or decrease the number of lan
 You can use the `&layout=compact` option to change the card design.
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana&layout=compact)
+![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana&layout=compact)
 ```
 
 ### Donut Chart Language Card Layout
@@ -560,7 +560,7 @@ You can use the `&layout=compact` option to change the card design.
 You can use the `&layout=donut` option to change the card design.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
 ### Donut Vertical Chart Language Card Layout
@@ -568,7 +568,7 @@ You can use the `&layout=donut` option to change the card design.
 You can use the `&layout=donut-vertical` option to change the card design.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
 ### Pie Chart Language Card Layout
@@ -576,7 +576,7 @@ You can use the `&layout=donut-vertical` option to change the card design.
 You can use the `&layout=pie` option to change the card design.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
 ### Hide Progress Bars
@@ -584,7 +584,7 @@ You can use the `&layout=pie` option to change the card design.
 You can use the `&hide_progress=true` option to hide the percentages and the progress bars (layout will be automatically set to `compact`).
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana&hide_progress=true)
+![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana&hide_progress=true)
 ```
 
 ### Change format of language's stats
@@ -592,38 +592,38 @@ You can use the `&hide_progress=true` option to hide the percentages and the pro
 You can use the `&stats_format=bytes` option to display the stats in bytes instead of percentage.
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana&stats_format=bytes)
+![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana&stats_format=bytes)
 ```
 
 
 ### Demo
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana)
+![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana)
 
 *   Compact layout
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana\&layout=compact)
+![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana\&layout=compact)
 
 *   Donut Chart layout
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana\&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana\&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
 
 *   Donut Vertical Chart layout
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana\&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana\&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats)
 
 *   Pie Chart layout
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana\&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana\&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
 
 *   Hidden progress bars
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana\&hide_progress=true)
+![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana\&hide_progress=true)
 
 
 *  Display bytes instead of percentage
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana\&stats_format=bytes)
+![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana\&stats_format=bytes)
 
 # WakaTime Stats Card
 
@@ -636,7 +636,7 @@ You can use the `&stats_format=bytes` option to display the stats in bytes inste
 Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 
 ```md
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-stats-nu-nine-96.vercel.app/api/wakatime?username=ffflabs)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
 ### Options
@@ -662,13 +662,13 @@ You can customize the appearance and behavior of the WakaTime stats card using t
 
 ### Demo
 
-![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)
+![Harlok's WakaTime stats](https://github-readme-stats-nu-nine-96.vercel.app/api/wakatime?username=ffflabs)
 
-![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)
+![Harlok's WakaTime stats](https://github-readme-stats-nu-nine-96.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)
 
 *   Compact layout
 
-![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
+![Harlok's WakaTime stats](https://github-readme-stats-nu-nine-96.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
 
 ***
 
@@ -718,31 +718,31 @@ Choose from any of the [default themes](#themes)
 
 *   Customizing stats card
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=SalahAssana\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
+![Anurag's GitHub stats](https://github-readme-stats-nu-nine-96.vercel.app/api/?username=SalahAssana\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
 
 *   Setting card locale
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=SalahAssana\&locale=es)
+![Anurag's GitHub stats](https://github-readme-stats-nu-nine-96.vercel.app/api/?username=SalahAssana\&locale=es)
 
 *   Customizing repo card
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=SalahAssana\&repo=github-readme-stats\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
+![Customized Card](https://github-readme-stats-nu-nine-96.vercel.app/api/pin?username=SalahAssana\&repo=github-readme-stats\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
 
 *   Gist card
 
-![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
+![Gist Card](https://github-readme-stats-nu-nine-96.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
 
 *   Customizing gist card
 
-![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d&theme=calm)
+![Gist Card](https://github-readme-stats-nu-nine-96.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d&theme=calm)
 
 *   Top languages
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAssana)
+![Top Langs](https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs/?username=SalahAssana)
 
 *   WakaTime card
 
-![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)
+![Harlok's WakaTime stats](https://github-readme-stats-nu-nine-96.vercel.app/api/wakatime?username=ffflabs)
 
 ***
 
@@ -757,7 +757,7 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
   <img height=200 align="center" src="https://github-readme-stats-nu-nine-96.vercel.app/api?username=SalahAssana" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=SalahAssana&layout=compact&langs_count=8&card_width=320" />
+  <img height=200 align="center" src="https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs?username=SalahAssana&layout=compact&langs_count=8&card_width=320" />
 </a>
 ```
 
@@ -768,7 +768,7 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
   <img height=200 align="center" src="https://github-readme-stats-nu-nine-96.vercel.app/api?username=SalahAssana" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=SalahAssana&layout=compact&langs_count=8&card_width=320" />
+  <img height=200 align="center" src="https://github-readme-stats-nu-nine-96.vercel.app/api/top-langs?username=SalahAssana&layout=compact&langs_count=8&card_width=320" />
 </a>
 
 </details>
@@ -777,10 +777,10 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 
 ```html
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=SalahAssana&repo=github-readme-stats" />
+  <img align="center" src="https://github-readme-stats-nu-nine-96.vercel.app/api/pin/?username=SalahAssana&repo=github-readme-stats" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=SalahAssana&repo=convoychat" />
+  <img align="center" src="https://github-readme-stats-nu-nine-96.vercel.app/api/pin/?username=SalahAssana&repo=convoychat" />
 </a>
 ```
 
@@ -788,10 +788,10 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 <summary>:eyes: Show example</summary>
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=SalahAssana&repo=github-readme-stats" />
+  <img align="center" src="https://github-readme-stats-nu-nine-96.vercel.app/api/pin/?username=SalahAssana&repo=github-readme-stats" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=SalahAssana&repo=convoychat" />
+  <img align="center" src="https://github-readme-stats-nu-nine-96.vercel.app/api/pin/?username=SalahAssana&repo=convoychat" />
 </a>
 
 </details>
@@ -834,7 +834,7 @@ Selecting the right scopes for your token is important in case you want to displ
 
 ### :film\_projector: [Check Out Step By Step Video Tutorial By @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
-Since the GitHub API only allows 5k requests per hour, my `https://github-readme-stats.vercel.app/api` could possibly hit the rate limiter. If you host it on your own Vercel server, then you do not have to worry about anything. Click on the deploy button to get started!
+Since the GitHub API only allows 5k requests per hour, my `https://github-readme-stats-nu-nine-96.vercel.app/api` could possibly hit the rate limiter. If you host it on your own Vercel server, then you do not have to worry about anything. Click on the deploy button to get started!
 
 > [!NOTE]
 > Since [#58](https://github.com/anuraghazra/github-readme-stats/pull/58), we should be able to handle more than 5k requests and have fewer issues with downtime :grin:.
